@@ -1,0 +1,74 @@
+/*banner*/
+.banner-news{width: 100%;position: relative;overflow: hidden;height: 176px;}
+.banner-img{width: 1920px;position: absolute;left: 50%;margin-left: -960px;}
+.news-title{position: absolute;bottom: 26%;left: 46%;}
+.news-title>p{font: 1em "Microsoft Yahei";color: #cfcfcf;margin-top: -10px;}
+/*面包屑导航*/
+.crumb-nav{position: relative;margin: -3em 1em}
+.crumb-nav>a{text-decoration: none;font-size: 0.75em;}
+/*左部分*/
+.step-title,.problem-title{padding: 2em 1em}
+.step-title>span:first-child,.problem-title>span:first-child{font-size: 1.25em;}
+.step-title>span:last-child,.problem-title>span:last-child{font-size: 0.75em;color: #919191;}
+.step-list{padding: 1em 0 1em 4em;border: 1px #efefef solid;}
+.step-list>li{line-height: 2em;}
+.step-list>li>i{padding: 2px 6px;border-radius: 50%;background-color: #eef1f2;font-size: 0.87em;}
+.step-list>li>span{padding-left: 3em;}
+.problem-list{border: 1px #efefef solid;text-align: center;margin-bottom: 2em;}
+.problem-list>li{border-bottom: 1px #efefef solid;padding: 1em}
+.problem-list>li>a{text-decoration: none;}
+.problem-list>li>a:hover,.news-list>li>a:hover{color: #f87426;}
+/*新闻列表*/
+.news-list>li{padding: 2em 0;border-bottom: 1px #efefef solid;}
+.news-list>li>a{float: left;text-decoration: none;}
+.news-list>li>span{float: right;}
+
+
+
+
+
+
+/*media*/
+@media (max-width: 435px) {
+    /*在小于435像素的屏幕里,这里的样式才生效*/
+
+    /*banner*/
+    .news-title{left: 24%;}
+    /*面包屑导航*/
+    .crumb-nav{display: none;}
+    /*新闻列表*/
+    .news-list>li{border: none;}
+
+}
+
+@media (min-width: 436px ) and (max-width: 767px) {
+    /*在436和768像素的屏幕里,这里的样式才生效*/
+
+    /*banner*/
+    .news-title{left: 34%;}
+    /*面包屑导航*/
+    .crumb-nav{display: none;}
+    /*新闻列表*/
+    .news-list>li{border: none;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*在768和991像素之间的屏幕里,这里的样式才生效*/
+
+    /*banner*/
+    .news-title{left: 40%;}
+    /*面包屑导航*/
+    .crumb-nav{display: none;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*在992和1199像素之间的屏幕里,这里的样式才生效*/
+
+    /*banner*/
+    .news-title{left: 42%;}
+}
+
+@media (min-width: 1200px) {
+    /*在大于1200像素的屏幕里,这里的样式才生效*/
+
+}

@@ -1,0 +1,55 @@
+/*banner*/
+.banner-news{width: 100%;position: relative;overflow: hidden;height: 176px;}
+.banner-img{width: 1920px;position: absolute;left: 50%;margin-left: -960px;}
+.news-title{position: absolute;bottom: 26%;left: 46%;text-align: center;}
+.news-title>p{font: 1em "Microsoft Yahei";color: #cfcfcf;margin-top: -10px;}
+/*面包屑导航*/
+.crumb-nav{position: relative;margin: -3em 1em}
+.crumb-nav>a{text-decoration: none;font-size: 0.75em;}
+/*公司简介*/
+.company-title{padding: 2em 1em;font-size: 1.25em;}
+.thumbnail{border: none;}
+.profile{font-size: 1em;color: #666;line-height: 2em;}
+
+
+
+
+
+/*media*/
+@media (max-width: 435px) {
+    /*在小于435像素的屏幕里,这里的样式才生效*/
+    /*banner*/
+    .news-title{left: 24%;}
+    /*面包屑导航*/
+    .crumb-nav{display: none;}
+
+
+}
+
+@media (min-width: 436px ) and (max-width: 767px) {
+    /*在436和768像素的屏幕里,这里的样式才生效*/
+    /*banner*/
+    .news-title{left: 34%;}
+    /*面包屑导航*/
+    .crumb-nav{display: none;}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*在768和991像素之间的屏幕里,这里的样式才生效*/
+    /*banner*/
+    .news-title{left: 40%;}
+    /*面包屑导航*/
+    .crumb-nav{display: none;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*在992和1199像素之间的屏幕里,这里的样式才生效*/
+    /*banner*/
+    .news-title{left: 42%;}
+}
+
+@media (min-width: 1200px) {
+    /*在大于1200像素的屏幕里,这里的样式才生效*/
+
+}

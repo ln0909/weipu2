@@ -1,0 +1,61 @@
+*{padding: 0;margin: 0;}
+p,h1,h2,h3,h4,h5,h6,ul,dl,dd,ol{list-style: none;}
+a{color: #333;text-decoration: none;}
+/*header部分*/
+.logo-title{display: inline-block;position: relative;top: 10px;left: 2%;}
+.logo-title>b{font-size: 1.375em;color: #000033;}
+.logo-title>p{font-size: 0.75rem;color: #9e9e9e;}
+.navbar-header{padding-right: 7%;}
+/*.search{margin-right: -8%;}*/
+.list-width{ width: 450px;position: absolute;top: 68px;}
+.list-width>dd{line-height: 2em;}
+.list-right{position: absolute;left: 34%;top: 3%;}
+/*底部*/
+.footer{padding: 6em 0;}
+.footer-b{display: inline-block;text-align: center;width: 100%}
+.footer-top,.footer-bottom{display: inline-block;}
+.footer-top>li{float: left;}
+.footer-top>li>a,.footer-bottom>dd>a{padding: 0.4em;text-decoration: none;}
+.footer-bottom{clear: both;}
+.footer-bottom>dd{float: left;}
+
+
+
+/*media*/
+@media (max-width: 435px) {
+    /*在小于435像素的屏幕里,这里的样式才生效*/
+    .list-width{padding-left: 10%;}
+    .list-right{position: static;}
+    /*底部*/
+    .footer{padding: 4em 0;font-size: 0.65em;}
+    .footer-top>li>a,.footer-bottom>dd>a{padding: 0.1em;}
+    .footer-bottom{width: 50%}
+}
+
+@media (min-width: 436px ) and (max-width: 767px) {
+    /*在436和768像素的屏幕里,这里的样式才生效*/
+    .list-width{padding-left: 10%;}
+    .list-right{position: static;}
+    /*底部*/
+    .footer{padding: 4em 0;font-size: 0.8em;}
+    .footer-top>li>a,.footer-bottom>dd>a{padding: 0.1em;}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*在768和991像素之间的屏幕里,这里的样式才生效*/
+    .list-width{left: -40%}
+    .list-width>dd{padding-left: 14%;}
+    .list-right{left: 38%;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*在992和1199像素之间的屏幕里,这里的样式才生效*/
+    .list-width{left: -56%}
+    .list-width>dd{padding-left: 18%;}
+}
+
+@media (min-width: 1200px) {
+    /*在大于1200像素的屏幕里,这里的样式才生效*/
+    .list-width{left: -68%}
+    .list-width>dd{padding-left: 20%;}
+}
