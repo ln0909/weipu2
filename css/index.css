@@ -16,7 +16,7 @@
 .promise-img>img{width: 100%;}
 /*检测列表*/
 .list-row{padding-top: 1em;padding-bottom: 2em;}
-.check-list{background-color: #fff;margin: 0.2em -1.2em;padding: 2em 1em 4em 1em;cursor: pointer;box-shadow: 0 0 22px #666;}
+.check-list{background-color: #fff;margin: 0.2em -1.2em;padding: 2em 1em 4em 1em;cursor: pointer;box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);}
 .left-part{float: left;}
 .left-part>img{border: 1px #eee solid;margin: 0.2em 1.4em 1.2em 0;}
 .left-part>p{text-align: center;}
@@ -44,7 +44,7 @@
 
 
     /*右部分*/
-.total-check,.invoice,.notice,.online-service{background-color: #fff;box-shadow: 0 0 22px #666;}
+.total-check,.invoice,.notice,.online-service{background-color: #fff;box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);}
 .total-check>p,.invoice>p,.notice>p,.online-service>p,.notice>div{padding: 1.2em 1em;}
 .total-check>p:first-child,.invoice>p:first-child,.notice>p,.online-service>p{font-size: 1.2em;border-bottom: 1px #eee solid;}
 .total-check>p>b{font-size: 1.4em;padding: 0.4em 0.2em;border-radius: 5px;color: #2295f4;background: -webkit-linear-gradient(#e7e6e6 50%, #f3f3f3 50%);background: -o-linear-gradient(#e7e6e6 50%, #f3f3f3 50%);background: -moz-linear-gradient(#e7e6e6 50%, #f3f3f3 50%);background: linear-gradient(#e7e6e6 50%, #f3f3f3 50%);}

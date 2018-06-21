@@ -1,0 +1,91 @@
+/*banner*/
+.banner-report{width: 100%;position: relative;overflow: hidden;height: 340px;}
+.banner-img{width: 1920px;position: absolute;left: 50%;margin-left: -960px;}
+.report-title{position: absolute;top: 8%;left: 46%;text-align: center;color: #fff;}
+.report-title>p{font: 1em "Microsoft Yahei";color: #cfcfcf;margin-top: -10px;}
+/*搜索框*/
+.query-report{position: relative;margin-top: -14em;}
+.query-report>input[type="text"]{width: 90%;height: 54px;background-color: #eee;padding-left: 1em;border: none;font-size: 1.2em;box-sizing: border-box;}
+.query-report>input[type="button"]{width: 10%;height: 54px;margin-left: -4px;padding-bottom: 1px;background-color: #f8802b;border: none;font-size: 1.2em;color: #fff;border-top-right-radius: 4px;border-bottom-right-radius: 4px;box-sizing: border-box;}
+/*表格*/
+.table-d{position: relative;margin: 1em 0;background-color: #fff;padding: 3em;box-shadow: 0 0 12px rgba(0, 0, 0, 0.4)}
+.t-table{width: 100%;height: 252px;border: 1px #eee solid;text-align: center;position: relative;font-size: 1em;}
+.t-table .t-title{background-color: #eee;}
+.t-table .t-title>td:first-child{padding: 0 4em;color: #333;}
+.t-table .t-title>td{height: 14%;color: #333;}
+.t-table tr td{border: 1px #eee solid;color: #666;}
+.t-table tr td:first-child{width: 18%;padding: 0 2em;text-align: left;}
+.t-table tr td:nth-child(n+2){width: 16%;}
+/*!*表格内容行一,后三个 *!*/
+.t-table .list-row1>td>span{color: #fff;padding: 2px 12px;border: 1px #67c363 solid;border-radius: 15px;background-color: #67c363;}
+.t-table .list-row1>td:nth-last-child(2)>input{width: 50%;height: 38%;color: #29a0ee;cursor: pointer;border: 1px #29a0ee solid;background: -webkit-linear-gradient(#fff, #e8f1ff);background: -o-linear-gradient(#fff, #e8f1ff);background: -moz-linear-gradient(#fff, #e8f1ff);background: linear-gradient(#fff, #e8f1ff);}
+.t-table .list-row1>td:nth-last-child(1)>input{width: 50%;height: 38%;color: #666;cursor: pointer;border: 1px #c7c7c7 solid;background-color: #fff;}
+.t-table .list-row1>td:nth-last-child(2)>input:hover{background: -webkit-linear-gradient(#fff, #caddfc);background: -o-linear-gradient(#fff, #caddfc);background: -moz-linear-gradient(#fff, #caddfc);background: linear-gradient(#fff, #caddfc);}
+.t-table .list-row1>td:nth-last-child(1)>input:hover{background-color: #efefef;border: 1px #b6b6b6 solid;}
+/*!*表格内容行二、行三，后三个*!*/
+.t-table .list-row2>td>span{color: #67c363;}
+.t-table .list-row2>td>input,.t-table .list-row3>td>input{width: 50%;height: 38%;color: #666;border: none;background-color: #ebebeb;}
+
+/*小屏幕表格*/
+.xs-t-table{width: 100%;height: 74px;border: 1px #eee solid;text-align: center;position: relative;font-size: 1em;}
+.xs-t-table:nth-child(1n){margin-bottom: 3em;}
+.xs-t-title{background-color: #eee;}
+.xs-t-table .xs-t-title>th:first-child{padding: 0 4em;color: #333;}
+
+
+
+
+/*温馨提示*/
+.remind{position: relative;width: 100%;color: #666;font-size: 1em;padding: 2em 0;}
+.remind-list{list-style: disc;padding-left: 1em;padding-top: 1em;}
+.remind-list li{line-height: 2em;}
+
+
+/*media*/
+@media (max-width: 435px) {
+    /*在小于435像素的屏幕里,这里的样式才生效*/
+    /*banner*/
+    .report-title{left: 24%;}
+    .query-report>input[type="text"]{width: 78%;font-size: 1em;}
+    .query-report>input[type="button"]{width: 22%;font-size: 1em;padding-bottom: 0;}
+
+}
+
+@media (min-width: 436px ) and (max-width: 767px) {
+    /*在436和768像素的屏幕里,这里的样式才生效*/
+    /*banner*/
+    .report-title{left: 34%;}
+    /*搜索框*/
+    .query-report>input[type="text"]{width: 82%;font-size: 1em;}
+    .query-report>input[type="button"]{width: 18%;font-size: 1em;padding-bottom: 0;}
+    /*表格*/
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*在768和991像素之间的屏幕里,这里的样式才生效*/
+    /*banner*/
+    .report-title{left: 40%;}
+    .query-report>input[type="text"]{width: 85%;}
+    .query-report>input[type="button"]{width: 15%;}
+    /*表格*/
+    .t-table .t-title>td:first-child{padding: 0 2em;}
+    .t-table tr td:first-child{padding: 0 1em;}
+    /*!*表格内容行一,后三个 *!*/
+    .t-table .list-row1>td:nth-last-child(2)>input{width: 60%;}
+    /*!*表格内容行二、行三，后三个*!*/
+    .t-table .list-row2>td>input,.t-table .list-row3>td>input{width: 60%;}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*在992和1199像素之间的屏幕里,这里的样式才生效*/
+    /*banner*/
+    .report-title{left: 42%;}
+
+}
+
+@media (min-width: 1200px) {
+    /*在大于1200像素的屏幕里,这里的样式才生效*/
+
+}
