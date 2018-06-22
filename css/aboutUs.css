@@ -1,18 +1,22 @@
 /*banner*/
-.banner-news{width: 100%;position: relative;overflow: hidden;height: 176px;}
+.banner-news{width: 100%;position: relative;overflow: hidden;height: 340px;}
 .banner-img{width: 1920px;position: absolute;left: 50%;margin-left: -960px;}
-.news-title{position: absolute;bottom: 26%;left: 46%;text-align: center;}
+.news-title{position: absolute;top: 8%;left: 46%;text-align: center;color: #fff;}
 .news-title>p{font: 1em "Microsoft Yahei";color: #cfcfcf;margin-top: -10px;}
-/*面包屑导航*/
-.crumb-nav{position: relative;margin: -3em 1em}
-.crumb-nav>a{text-decoration: none;font-size: 0.75em;}
+
 /*公司简介*/
-.company-title{padding: 2em 1em;font-size: 1.25em;}
-.thumbnail{border: none;}
-.profile{font-size: 1em;color: #666;line-height: 2em;}
-
-
-
+.bg-content{position: relative;margin-top: -14em;background-color: #fff;box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);}
+.about-img{padding: 4em 0 4em 4em;}
+.about-Us{position: relative;left: -2%;width: 96%;padding: 4em 0;}
+.company-title>p{font-size: 1.75em;margin-bottom: -4px;}
+.company-title>span{font-size: 0.75em;}
+.profile{font-size: 1.2em;color: #666;line-height: 2em;padding-top: 4em;}
+.profile>p{font-size: 0.75em;color: #f76801;}
+.left-part{padding: 6em 0 6em 4em;}
+.left-part>div{display: inline-block;padding: 1em 2em;position: absolute;font-size: 1.2em;color: #666;}
+.left-part>div>p:nth-child(2){font-size: 2em;color: #333;}
+.right-part{float: right;padding: 6em 4em 6em 0;}
+.right-part>a{padding: 0 2em;}
 
 
 /*media*/
@@ -20,33 +24,58 @@
     /*在小于435像素的屏幕里,这里的样式才生效*/
     /*banner*/
     .news-title{left: 24%;}
-    /*面包屑导航*/
-    .crumb-nav{display: none;}
-
-
+    /*公司简介*/
+    .profile{padding-top: 2em;}
+    .about-Us{left: 0;width: 100%;padding: 2em 3em;}
+    /*在线客服*/
+    .right-part{float: left;text-align: center;padding: 4em 0;}
+    .right-part>a{padding: 0;}
+    .right-part>a>img{width: 28%}
+    .left-part-s{font-size: 1em;text-align: center;padding: 0 2em;}
+    .left-part-s>p{float: left;padding: 0;font-size: 1.2em;}
 }
 
 @media (min-width: 436px ) and (max-width: 767px) {
     /*在436和768像素的屏幕里,这里的样式才生效*/
     /*banner*/
     .news-title{left: 34%;}
-    /*面包屑导航*/
-    .crumb-nav{display: none;}
-
+    /*公司简介*/
+    .about-Us{left: 0;width: 100%;padding: 2em 3em;}
+    /*在线客服*/
+    .right-part{float: left;text-align: center;padding: 4em 0;}
+    .right-part>a{padding: 0 1em;}
+    .right-part>a>img{width: 22%}
+    .left-part-s{font-size: 1em;text-align: center;padding: 0 4em;}
+    .left-part-s>p{float: left;padding: 0 0.2em;font-size: 1.2em;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
     /*在768和991像素之间的屏幕里,这里的样式才生效*/
     /*banner*/
     .news-title{left: 40%;}
-    /*面包屑导航*/
-    .crumb-nav{display: none;}
+    /*公司简介*/
+    .about-img{padding: 4em 0 0 2em;}
+    .about-img>img{width: 92%;}
+    .profile{font-size: 1em;}
+    .about-Us{left: -10%;width: 100%;}
+    /*在线客服*/
+    .left-part>div{padding: 1em 1em;font-size: 1em;}
+    .left-part>div>p:nth-child(2){font-size: 1.8em;}
+    .right-part>a{padding: 0 1em;}
+    .left-part>img,.right-part>a>img{width: 38%;}
+
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
     /*在992和1199像素之间的屏幕里,这里的样式才生效*/
     /*banner*/
     .news-title{left: 42%;}
+    /*公司简介*/
+    .about-img{padding: 4em 0 4em 2em;}
+    .about-Us{left: 8%;width: 88%;}
+    /*在线客服*/
+    .left-part>div{padding: 1em 1em;}
+    .right-part>a{padding: 0 1em;}
 }
 
 @media (min-width: 1200px) {

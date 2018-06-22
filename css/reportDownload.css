@@ -27,12 +27,22 @@
 .t-table .list-row2>td>input,.t-table .list-row3>td>input{width: 50%;height: 38%;color: #666;border: none;background-color: #ebebeb;}
 
 /*小屏幕表格*/
-.xs-t-table{width: 100%;height: 74px;border: 1px #eee solid;text-align: center;position: relative;font-size: 1em;}
+.xs-t-table{width: 100%;height: 74px;border: 1px #eee solid;position: relative;font-size: 1em;}
 .xs-t-table:nth-child(1n){margin-bottom: 3em;}
 .xs-t-title{background-color: #eee;}
-.xs-t-table .xs-t-title>th:first-child{padding: 0 4em;color: #333;}
-
-
+.xs-t-title>th{text-align: center;color: #333;}
+.xs-t-table tr td{border: 1px #eee solid;color: #666;text-align: center;padding: 1em 0;}
+.xs-t-table tr td:first-child{width: 30%;padding: 0 1em;}
+.xs-t-table tr td:nth-child(n+2){width: 22%;}
+/*!*表格内容行一,后三个 *!*/
+.xs-list-row1>td>span{color: #fff;padding: 2px 12px;border: 1px #67c363 solid;border-radius: 15px;background-color: #67c363;}
+.xs-list-row1>td:nth-last-child(2)>input{width: 60%;color: #29a0ee;cursor: pointer;border: 1px #29a0ee solid;background: -webkit-linear-gradient(#fff, #e8f1ff);background: -o-linear-gradient(#fff, #e8f1ff);background: -moz-linear-gradient(#fff, #e8f1ff);background: linear-gradient(#fff, #e8f1ff);}
+.xs-list-row1>td:nth-last-child(1)>input{width: 60%;color: #666;cursor: pointer;border: 1px #c7c7c7 solid;background-color: #fff;}
+.xs-list-row1>td:nth-last-child(2)>input:hover{background: -webkit-linear-gradient(#fff, #caddfc);background: -o-linear-gradient(#fff, #caddfc);background: -moz-linear-gradient(#fff, #caddfc);background: linear-gradient(#fff, #caddfc);}
+.xs-list-row1>td:nth-last-child(1)>input:hover{background-color: #efefef;border: 1px #b6b6b6 solid;}
+/*!*表格内容行二、行三，后三个*!*/
+.xs-list-row2>td>span{color: #67c363;}
+.xs-list-row2>td>input,.xs-list-row3>td>input{width: 60%;color: #666;border: none;background-color: #ebebeb;}
 
 
 /*温馨提示*/
@@ -48,6 +58,16 @@
     .report-title{left: 24%;}
     .query-report>input[type="text"]{width: 78%;font-size: 1em;}
     .query-report>input[type="button"]{width: 22%;font-size: 1em;padding-bottom: 0;}
+    /*小屏幕表格*/
+    .table-d{padding: 2em;}
+    .xs-t-table tr td:first-child{width: 20%;padding: 1em 0;}
+    .xs-t-table tr td:nth-child(n+2){width: 17%;}
+    /*!*表格内容行一,后三个 *!*/
+    .xs-list-row1>td>span{padding: 2px 4px;}
+    .xs-list-row1>td:nth-last-child(2)>input{width: 70%;}
+    .xs-list-row1>td:nth-last-child(1)>input{width: 70%;}
+    /*!*表格内容行二、行三，后三个*!*/
+    .xs-list-row2>td>input,.xs-list-row3>td>input{width: 74%;}
 
 }
 
