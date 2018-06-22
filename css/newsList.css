@@ -1,11 +1,11 @@
 /*banner*/
 .banner-news{width: 100%;position: relative;overflow: hidden;height: 176px;}
 .banner-img{width: 1920px;position: absolute;left: 50%;margin-left: -960px;}
-.news-title{position: absolute;bottom: 26%;left: 46%;}
+.news-title{position: absolute;bottom: 26%;left: 46%;color: #f0f0f0;}
 .news-title>p{font: 1em "Microsoft Yahei";color: #cfcfcf;margin-top: -10px;}
 /*面包屑导航*/
-.crumb-nav{position: relative;margin: -3em 1em}
-.crumb-nav>a{text-decoration: none;font-size: 0.75em;}
+.crumb-nav{position: relative;margin: -3em 1em;color: #f0f0f0;}
+.crumb-nav>a{text-decoration: none;font-size: 0.75em;color: #f0f0f0;}
 /*左部分*/
 .step-title,.problem-title{padding: 2em 1em}
 .step-title>span:first-child,.problem-title>span:first-child{font-size: 1.25em;}
